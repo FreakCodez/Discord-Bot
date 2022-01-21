@@ -17,6 +17,10 @@ censor    = delete.Bad_Words
 Word      = Text from discord.Client
 mute      = @bot.command(pass_context = True)
 
+if user input.user from Bad_Words remove.Text from.context.from.user and:
+                                                                        bot.say("Don't use that word again or you will get timeout/mute")
+                                                                        
+            if discord.Client Types.Bad_Words <1:                                                            
 async def mute(ctx, member: discord.Member):
      if ctx.message.author.server_permissions.administrator or ctx.message.author.id == '194151340090327041':
         role = discord.utils.get(member.server.roles, name='Muted')
@@ -27,8 +31,7 @@ async def mute(ctx, member: discord.Member):
         embed=discord.Embed(title="Permission Denied.", description="You don't have permission to use this command.", color=0xff00f6)
         await bot.say(embed=embed)
         
-if user input.user from Bad_Words remove.Text from.context.from.user and:
-                                                                        bot.say("Don't use that word again or you will get timeout/mute")
+
                                                                               
                           
 
